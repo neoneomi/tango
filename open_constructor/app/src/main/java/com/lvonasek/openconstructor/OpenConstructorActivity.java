@@ -60,7 +60,7 @@ public class OpenConstructorActivity extends AbstractActivity implements View.On
   private Button mToggleButton;
   private LinearLayout mLayoutRecTop;
   private TextView mResText;
-  private int mRes = 3;
+  private int mRes = 6;
 
   private GestureDetector mGestureDetector;
   private float mMoveX = 0;
@@ -88,7 +88,7 @@ public class OpenConstructorActivity extends AbstractActivity implements View.On
         if (photo && (mRes > 0))
             dmax = 5.0;
         if(mRes == 0) {
-            res = 0.005;
+            res = 0.01;
             dmax = photo ? 2.0 : 1.0;
         }
 
