@@ -60,7 +60,7 @@ public class OpenConstructorActivity extends AbstractActivity implements View.On
   private Button mToggleButton;
   private LinearLayout mLayoutRecTop;
   private TextView mResText;
-  private int mRes = 3;
+  private int mRes = 6;
 
   private GestureDetector mGestureDetector;
   private float mMoveX = 0;
